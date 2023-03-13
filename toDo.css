@@ -1,0 +1,91 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+header{
+    background-color: black;
+    width: 350px;
+    margin: auto;
+    color: rgb(39,59,122);
+}
+
+#do {
+    color:rgb(56, 104, 149)
+}
+
+#sessao {
+    width: 350px;
+    margin: auto;
+    background-color: black;
+}
+
+#text {
+    text-indent: 5px;
+    height: 30px;
+    width: 250px;
+    color: white;
+    background-color: rgb(31, 31, 31);
+    border: 1px solid rgb(31, 31, 31);
+    border-radius: 5px;
+}
+
+#add {
+    height: 35px;
+    width: 35px;
+    background-color:steelblue;
+    border-radius: 5px;
+    border: 1px solid steelblue;
+    color: white;
+    cursor: pointer;
+}
+
+#criadasEConcluidas {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+#criadas {
+    float: left;
+    color: rgb(55, 117, 209);
+}
+
+#concluidas {
+    float: right;
+    color: rgb(41, 41, 104);
+}
+
+#content {
+    border-top: 1px solid black;
+    width: 350px;
+    margin: 50px auto auto auto;
+}
+
+#textoNenhumaTarefa {
+    border-top: 1px solid black;
+    margin-top: 100px;
+}
+
+li {
+    list-style: none;
+    background-color: rgb(31, 31, 31);
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    word-wrap: break-word;
+    box-shadow: 1px 1px 1px 1px rgba(78, 78, 78, 0.5);
+    margin-left: -25px;
+}
+
+#tarefaConcluida {
+    float: left;
+    margin: auto;
+}
+
+#excluirTarefa {
+    float: right;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title> To-Do List </title>
+    <link rel="stylesheet" href="toDo.css">
+</head>
+
+<body>
+    
+    <header>
+        <h1> <img src="rocket-ship-svgrepo-com.svg" height="30" width="30"> to<span id="do">do </span> </h1>
+    </header>
+
+    <section id="sessao">
+
+        <input type="text" name="text" id="text" placeholder="Adicione uma nova tarefa">
+        <button id="add"> + </button>
+
+        <p id="criadasEConcluidas"> <span id="criadas"> Criadas 0 </span> <span id="concluidas"> Concluídas 0 </span> </p>
+
+    </section>
+
+    <section id="content">
+
+        <p id="nenhumaTarefa"> <span style="font-weight: bold;"> Você ainda não tem tarefas cadastradas </span>
+            <br>
+            <span> Crie tarefas e organize seus itens a fazer </span>
+        </p>
+
+        <ul id="lista" style="display: none;">
+            
+        </ul id="listaFeita">
+
+        <ul id="listaFeita">
+
+        </ul>
+
+    </section>
+
+    <script src="toDo.js"></script>
+</body>
+
+</html>
