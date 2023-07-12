@@ -79,6 +79,8 @@ li {
     word-wrap: break-word;
     box-shadow: 1px 1px 1px 1px rgba(78, 78, 78, 0.5);
     margin-left: -25px;
+
+    display: flex;
 }
 
 #tarefaConcluida {
